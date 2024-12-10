@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity 6: Message App</title>
+    <link rel="stylesheet" href="css/styles.css">
+  
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <a href="activity-6/index.html">Go to Activity 6: Message App</a>
+
+  
+</head>
+<body>
+    <header>
+        <h1>Message App</h1>
+    </header>
+    
+    <main>
+        <section id="message-container" class="messages"></section>
+        <section>
+            <input type="text" id="message-input">
+            <button type ="button" id="send-button">Send</button>
+            <button type ="button" id="reply-button">Reply</button>
+        </section>
+    </main>
+
+  
+    <script src="js/scripts.js" charset="utf-8"></script>
+</body>
+</html>
